@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Russo One', sans-serif;
+}
+
+
+
+.sub-todo{
+    /* background-color: aqua; */
+    padding: 10px;
+    background-color: transparent;
+    height: 200px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+display: flex;    
+justify-content: center;
+}
+
+#todoh{
+    font-family: 'Russo One', sans-serif;;
+    /* font-weight: bold; */
+}
+
+.todo-btn{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+#addtodo{
+    padding: 8px;
+    background-color: #b3b3b3;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    margin-right: -30px;
+    box-shadow: 0px 2px 5px black;
+
+}
+
+#delAll{
+    padding: 8px;
+    background-color: #b3b3b3;
+    box-shadow: 0px 2px 5px black;
+    border-radius: 5px;
+    top: 136px;
+    border-style: none;
+    cursor: pointer;
+    margin-left: -70px;    
+}
+
+#todo{
+    width: 300px;
+    background-color: #b3b3b3;
+    border-style: none;
+    /* outline: none; */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px black;
+
+}
+
+.todo-ul{
+    display: flex;
+    justify-content: center;
+    /* background-color: #b3b3b3; */
+}
+
+.todo-ul ul{
+    margin-right: 20px;
+    margin-top: -20px;
+}
+
+.main-todo{
+    /* background-color: #b3b3b3; */
+    width: 500px;
+    align-items: center;
+    
+    margin: 20px;
+}
+
+.heading{
+    padding: 8px;
+    /* width: 700px; */
+    /* margin-left: -100px; */
+    margin-top: -10px;
+    /* background-color: #b3b3b3; */
+}
+
+#edit-btn{
+    padding: 5px;
+    margin: 4px;
+    background-color: #b3b3b3;
+    border-style: none;
+    border-radius: 3px;
+    box-shadow: 0px 2px 5px black;
+}
+
+#delete-btn{
+    padding: 5px;
+    margin: 4px;
+    background-color: #b3b3b3;
+    border-style: none;
+    border-radius: 3px;
+    box-shadow: 0px 2px 5px black;
+}

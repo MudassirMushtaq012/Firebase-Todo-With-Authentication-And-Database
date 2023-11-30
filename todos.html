@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="todos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="main-todo">
+        <div class="sub-todo">
+
+            <div class="heading">
+                <h1 id="todoh">Todo App</h1>
+            </div>
+
+            <div id="container">
+                <input id="todo" class="todos" type="text">
+            </div>
+
+            <div class="todo-btn">
+                <button id="addtodo" onclick="gettodo()">Add Todo</button>
+                <button id="delAll" onclick="deletetodo()">Delete All</button>
+            </div>
+    
+        </div>
+            <div class="todo-ul">
+                <ul id="getul"></ul>
+            </div>
+
+
+    </div>
+
+    <script type="module" src="app2.js"></script>
+</body>
+</html>
